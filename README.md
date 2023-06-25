@@ -1,19 +1,18 @@
 # HasUpdates.exe
-This is a simple command-line executable to identify which modules in a repository need to be updated and how signifant that update is.
+A command-line executable that lists the direct modules with updates and how signifant the update is.
 
 # Installing
 ```
-go install github.com/billgraziano/hasupdates`
+go install github.com/billgraziano/hasupdates
 ```
 
 # Features
 `hasupdates.exe` will
 * Identify any direct modules that need to be updated
-* Based on the package semantic version differences
-    * Major changes are listed in red
-    * Minor changes are listed in yellow
-    * No changes are listed in green (and hiddent by default)
-* The `-v` flag will display modules without changes
+* Major changes are listed in red
+* Minor changes are listed in yellow
+* No changes are listed in green (and hiddent by default)
+* The `-v` flag will display modules that are current
 
 ![Screenshot](/docs/output.png)
 
