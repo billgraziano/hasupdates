@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/fatih/color v1.15.0
-	golang.org/x/mod v0.11.0
+	golang.org/x/mod v0.12.0
 )
 
 require (
